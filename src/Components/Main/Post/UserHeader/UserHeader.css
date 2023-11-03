@@ -1,0 +1,27 @@
+.user-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.user-header img {
+    width: 50px;
+    height: 40px;
+    border-radius: 100%;
+    margin-right: 10px;
+}
+
+.user-name {
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 0;
+    color: #fff;
+
+}
+
+.user-handle {
+    color: #777;
+    margin-top: 0;
+
+}
+

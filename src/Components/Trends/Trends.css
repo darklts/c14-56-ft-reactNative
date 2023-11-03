@@ -1,0 +1,85 @@
+.trends-container {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+  border: 1px solid #ccc;
+  background-color: #a5b4fc;
+  border-top: none;
+  border-radius: 25px;
+  padding: 3px;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Roboto';
+  
+}
+
+.trend-h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 5px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.trend-title {
+  border-top: 1px solid #ffffff;
+  font-weight: 500;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+ 
+  margin-bottom: 0;
+  text-align: start;
+  padding: 25px 20px 0px 20px;
+}
+
+
+
+.trend-info {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align:center;
+    margin-top: 6px;
+    margin-bottom: 0;
+    padding: 0px 25px;
+    color: #ffffff;
+}
+
+
+
+.trend-posts {
+  text-align: center;
+  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  margin-top: 6px;
+  color: #d9d9d9;
+}
+
+
+
+
+
+.trend-button {
+  background-color: #1F3054;
+  color: white;
+  border-radius: 15px;
+  cursor: pointer;
+  font-family: 'Roboto', sans-serif;
+  border: solid #1F3054;
+  transition: 0.5s ease;
+  margin-right: 10px;
+  
+}
+
+.trend-button:hover {
+
+  background-color: #2980b9;
+  border: solid #2980b9;
+  transition: 0.5s ease;
+}

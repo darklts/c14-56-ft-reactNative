@@ -1,0 +1,127 @@
+.profile-post {
+  padding: 15px;
+  height: 80vh;
+  @media (max-width: 1300px) {
+  }
+  @media (max-width: 900px) {
+    height: auto;
+  }
+}
+
+.profile-post-box {
+  box-sizing: content-box;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(25%, 3fr));
+  gap: 10px;
+
+  @media (max-width: 1300px) {
+    grid-template-columns: repeat(auto-fill, minmax(40%, 2fr));
+  }
+  @media (max-width: 900px) {
+    display: block;
+  }
+}
+.profile-post-title {
+  color: #000;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 100px;
+}
+
+.profile-post-title-line {
+  margin: 0 0 30px 90px;
+  border: solid 3px #f0a3a8;
+  border-radius: 10px;
+  width: 110px;
+}
+.profile-post-card {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  background-color: #1f3054;
+  border-radius: 20px;
+  padding: 0 10px 20px 10px;
+  margin: 20px 0 20px 0;
+}
+
+.profile-post-card-header {
+  width: 100%;
+  height: auto;
+  min-height: 60px;
+  overflow: auto;
+  display: grid;
+  grid-template-columns: 20% 80%;
+  gap: 0;
+  align-items: center;
+}
+.profile-post-card-header-photo {
+  max-width: 45px;
+  max-height: auto;
+  overflow: hidden;
+  border-radius: 100%;
+  padding: 20px 0 0 0;
+}
+.profile-post-card-header-details {
+  line-height: 15px;
+  font-size: 16px;
+}
+.profile-post-card-header-details p {
+  font-weight: 500;
+  font-size: 22px;
+  color: #fff;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+
+  @media (max-width: 900px) {
+    font-size: 18px;
+  }
+}
+.profile-post-card-header-date {
+  font-style: italic;
+  font-size: 13px;
+  line-height: 15px;
+}
+
+.profile-post-card-body {
+  padding: 0 10px 0 10px;
+}
+
+.profile-post-card-body-post {
+  background-color: #fff;
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+  position: relative;
+  flex-wrap: wrap;
+  z-index: 100;
+}
+.profile-post-content-card-info {
+  padding: 20px;
+  border-radius: 0 0 20px 20px;
+  z-index: 100;
+}
+.profile-post-content-card-like {
+  background: linear-gradient(#7a577a, #45214a);
+  z-index: 0;
+  height: 50px;
+  border-radius: 0 0 20px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.profile-post-icons {
+  display: flex;
+  width: auto;
+  overflow: hidden;
+  align-items: center;
+  margin: 0 5px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #fff;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.profile-post-icons svg {
+  margin: 5px;
+}

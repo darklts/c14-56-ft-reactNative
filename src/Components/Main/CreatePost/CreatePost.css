@@ -1,0 +1,27 @@
+.create-post-container{
+    background-color: #eeeeee;
+    border-radius: 15px;
+}
+
+
+.create-post-button {
+    background-color: #1F3054;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: solid #1F3054;
+    transition: 0.5s ease;
+    margin-right: 10px;
+    padding: 0px 50px 0px;
+    border-color: white;
+font-size: 1rem;
+    
+  }
+  
+  .create-post-button:hover {
+  
+    background-color: #2980b9;
+    border-color: solid white;
+    transition: 0.5s ease;
+  }

@@ -1,0 +1,38 @@
+.interaction-buttons {
+    display: flex;
+    background: linear-gradient(rgba(244, 211, 221, 0.38) 0%, rgba(156, 96, 114, 0.38) 60%);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.interaction-button {
+    background-color: #0073e6;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.heart-button {
+    position: relative;
+    border: none;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .heart-button ion-icon {
+    transition: color 0.2s ease-in-out;
+    font-size: 1.5em;
+  }
+
+  .heart-button.liked ion-icon {
+    color: rgb(255, 48, 64);
+  }
+
+  .heart-button:active ion-icon {
+    transform: scale(1.2);
+    transition: transform .1s;
+  }

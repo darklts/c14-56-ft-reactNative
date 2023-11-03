@@ -1,0 +1,55 @@
+.plus-card {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    border: 1px solid #ccc;
+    background-color: #a5b4fc;
+    border-top: none;
+    border-radius: 25px;
+    padding: 3px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto';
+}
+
+.plus-title {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding-top: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+
+}
+
+.plus-description {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-align:center;
+}
+
+
+.subscribe-button {
+    background-color: #1F3054;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: solid 2px #ffffff;
+    transition: 0.5s ease;
+    margin-right: 10px;
+    padding: 10px 50px 10px 50px;
+
+}
+
+.subscribe-button:hover {
+
+    background-color: #2980b9;
+    border: solid 2px #2980b9;
+    transition: 0.5s ease;
+}

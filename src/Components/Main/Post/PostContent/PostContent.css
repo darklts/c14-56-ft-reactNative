@@ -1,0 +1,17 @@
+.post-content {
+    min-height: 30px;
+    background-color: #d9d9d9;
+    border-radius: 8px;
+}
+
+.content {
+    font-size: 18px;
+    padding: 50px;
+    
+}
+
+.post-date {
+    color: #777;
+    text-align: end;
+    font-style: italic;
+}

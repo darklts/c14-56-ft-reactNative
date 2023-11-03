@@ -1,0 +1,64 @@
+.user-card {
+    border: 1px solid #ccc;
+    background-color: #d9d9d9;
+    border-top: none;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    
+    padding: 3px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.user-card h4{
+    font-family: 'Roboto', sans-serif;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+}
+
+.user-text {
+    margin-right: 50px;
+    color: black;
+    font-family: 'Roboto', sans-serif;
+}
+
+.user-name{
+    margin-bottom: 0
+}
+
+.user-username{
+    margin-top: 0;
+}
+
+.avatar img {
+    width: 50px;
+    height: 50px;
+}
+
+.user-list {
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.follow-button {
+    background-color: #1F3054;
+    color: white;
+    border-radius: 15px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    border: solid #1F3054;
+    transition: 0.5s ease;
+    margin-right: 10px;
+}
+
+.follow-button:hover {
+
+    background-color: #2980b9;
+    border: solid #2980b9;
+    transition: 0.5s ease;
+}

@@ -1,0 +1,31 @@
+.search-bar {
+    background-color: aliceblue;
+    padding: 5px;
+    border-radius: 25px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    /* margin-bottom: 20px; */
+    display: flex;
+    justify-content: center;
+    /* margin-top: 70px; */
+}
+
+.search-icon {
+    margin-right: 100px;
+ 
+}
+
+.search-input {
+    background-color: aliceblue;
+    border: none;
+    align-content: center;
+    text-align: left;
+    padding-left: 1rem;
+    outline: none;
+}
+
+.activeicon> ion-icon{
+    color: black;
+    width: 2rem;
+}

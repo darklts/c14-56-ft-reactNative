@@ -1,0 +1,30 @@
+.profile-about-box {
+  padding: 30px 20px 30px 20px;
+  background-color: #3c2c46;
+  border-radius: 23px;
+
+  @media (max-width: 1100px) {
+    display: block;
+  }
+}
+.profile-about-title {
+  margin: 30px 0 25px 0;
+  font-size: 24px;
+  color: #fff;
+  text-shadow: 0.5px 4px 8px #000;
+}
+.profile-about-box-title {
+  text-align: center;
+  font-size: 20px;
+  text-transform: uppercase;
+}
+.profile-about-box-line {
+  margin: 8px auto;
+  border: solid 3px #f0a3a8;
+  border-radius: 10px;
+  width: 110px;
+}
+.profile-about-box-description {
+  text-align: start;
+  color: #f2f2f2;
+}

@@ -1,0 +1,50 @@
+* {
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/*  Profile Banner  */
+
+.profile-banner {
+  background-image: url('https://res.cloudinary.com/dxbnpkfiw/image/upload/v1698707509/billy-huynh-W8KTS-mhFUE-unsplash_ksvjdz.jpg');
+  background-repeat: no-repeat;
+  background-size: 100%;
+
+  @media (max-width: 1100px) {
+    display: block;
+  }
+}
+/*  Profile content  */
+.body-profile {
+  box-sizing: content-box;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+
+  @media (max-width: 1100px) {
+    display: block;
+    height: 30rem;
+  }
+}
+
+.body-profile-about {
+  width: 100%;
+  background: linear-gradient(#3e5a87, #354e82, #091c43);
+  height: 100%;
+  padding: 20px;
+  text-align: center;
+
+  @media (max-width: 1100px) {
+    display: block;
+    padding-top: 220px;
+  }
+}
+
+.body-profile-post {
+  width: 100%;
+  background-color: #f2f2f2;
+}
+
+/* Profile About */
+
+/*  Profile Post  */

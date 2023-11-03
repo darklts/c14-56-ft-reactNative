@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+
+  ;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.main {
+  max-width: 72vw;
+  padding: 20px;
+  width: auto;
+  min-height: 100vh;
+  justify-content: center;
+ 
+
+
+}
+
+.aside {
+  background: linear-gradient(rgb(62, 90, 135) 30%,  rgb(31, 43, 56)70%);
+  padding: 20px;
+  width: 25vw;
+}
+
+
