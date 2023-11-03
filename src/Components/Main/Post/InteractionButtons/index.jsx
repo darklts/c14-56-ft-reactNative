@@ -20,7 +20,7 @@ const InteractionButtons = ({ postId }) => {
         setLikeId(likeData ? likeData?._id : undefined)
       })
       .catch(error => {
-        console.log(error)
+        console.error(error)
       })
   }, [postId, userId])
 

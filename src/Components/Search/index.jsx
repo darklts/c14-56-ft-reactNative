@@ -1,12 +1,12 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import Avatar from '@Avatar'
 import './Search.css'
 import axios from 'axios'
 import { useNavigate } from 'react-router-dom'
 
 const Search = () => {
-  const [users, setUsers] = useState([])
-  const [filteredUsers, setFilteredUsers] = useState([])
+  const [users, setUsers] = useState()
+  const [filteredUsers, setFilteredUsers] = useState()
   const [searchInput, setSearchInput] = useState('')
 
   const navigate = useNavigate()
@@ -32,6 +32,23 @@ const Search = () => {
       })
   }, [])
 
+  const fila = () => {
+    if(filteredUsers?.length > 0)
+              filteredUsers?.map((user, index) => (
+                  <tr
+                    key={index}
+                    onClick={() => navigate(`/profile/${user?._id}`)}
+                    className="cursor-pointer border-b-slate-400 border-b"
+                  >
+                    <Avatar
+                      imageUrl={user?.photoProfile?.path}
+                      style={'searchInput'}
+                    />
+                    <td className="text-slate-800">{user?.name}</td>
+                  </tr>
+                ))
+  }
+
   return (
     <div>
       <div className="search-bar activeicon">
@@ -49,22 +66,8 @@ const Search = () => {
           searchInput === '' ? 'hidden' : ''
         }`}
       >
-        <table className="">
-          {filteredUsers?.length > 0
-            ? filteredUsers?.map((user, index) => (
-                <tr
-                  key={index}
-                  onClick={() => navigate(`/profile/${user?._id}`)}
-                  className="cursor-pointer border-b-slate-400 border-b "
-                >
-                  <Avatar
-                    imageUrl={user?.photoProfile?.path}
-                    style={'searchInput'}
-                  />
-                  <td className="text-slate-800">{user?.name}</td>
-                </tr>
-              ))
-            : ''}
+        <table>
+          {fila()}
         </table>
       </div>
     </div>
